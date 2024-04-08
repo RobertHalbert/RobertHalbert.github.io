@@ -1,57 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="sytlesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=K2D" rel="sytlesheet"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-    <link type="text/css" rel="stylesheet" href="./styles.css"/>
-
-    <title>Home Page</title>
-
-
-</head>
-<body>
-    <header>
-        <nav>
-            <div>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">PORFOLIO</a></li>
-                    <li><a href="">ABOUT ME</a></li>
-                    <li class="leftnav"><a href="https://github.com/RobertHalbert">MY GITHUB</a></li>
-                    <li class="leftnav"><a href="">CONTACT</a></li>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Robert Halbert</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top" style="background-image: linear-gradient(white, gray,black);">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav"  style="background-color: darkblue;">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Robert Halbert</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 </ul>
             </div>
         </nav>
-        <h1>WELCOME TO MY PAGE</h1>
-        <img class="bar" src="bar.png" alt="seperator">
-    </header>
-    <main>
-        <div class="row">
-            <div class="col-8" id="paragraphCol">
-                <section class="paragraph">
-                    <p>
-                        Hello, my name is Robert Halbert. I am a junior programmer and student at the IT NSCC campus, currently taking the IT Programming course.
-                    </p>
-                    <p>
-                        I'll probably write more stuff in here when I think about it. Right now I'll put this in to take up some space and make it look more full.
-                    </p>
-                </section>
-            </div>
-            <div class="col-sm" id="catCol">
-                <img class="cat" src="cat.jpg" alt="cat picture">
-            </div>
+        <div class="container-fluid p-0">
+            <section class="resume-section section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Robert
+                        <span class="text-primary">Halbert</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Halifax, Nova Scotia ·
+                        <a href="mailto:name@email.com">rad.halbert@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">I am a junior progammer and recent graduate of the NSCC IT Programming course. I have a passion for progamming and I am excited to embark on my career.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/RobertHalbert"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Nova Scotia Community Collage</h3>
+                            <div class="subheading mb-3">Degree in Programming</div>
+                            <div>IT Programming - NSCC IT Campus</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2022 - August 2024</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-c"></i><i class="fa-solid fa-plus"></i><i class="fa-solid fa-plus"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-c"></i><i class="fa-solid fa-hashtag"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Logical Promblem Solving
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Critical Thinking
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Adaptability
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Time Management
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a programmer, I enjoy playing a veriety of video games. RPGs, Factory Simulators, MMORPGs, and Third Person Action games are among the various types of games I play. I am not afraid to try out a new genre of game should it look fun or interesting.</p>
+                    <p class="mb-0">Ouside of my main hobby, I enjoy taking long walks and enjoying nature, growing and caring for a garden, solving puzzles and brain teasers, </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <h3>Project 1</h3>
+                    <p>This is the First Project</p>
+                    <h3>Project 2</h3>
+                    <p>This is the Second Project</p>
+                </div>
+            </section>
         </div>
-    </main>
-</body>
-<footer>
-    <p>
-        Halifax, Nova Scotia <br/>2023
-    </p>
-</footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
