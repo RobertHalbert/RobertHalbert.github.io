@@ -10981,3 +10981,8 @@ section {
   border-style: solid;
   border-radius: 5px;
 }
+
+.projectImage {
+  max-width: 400px;
+  align-content: center;
+}
