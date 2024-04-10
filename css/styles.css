@@ -10986,3 +10986,20 @@ section {
   max-width: 400px;
   align-content: center;
 }
+
+.projectLink {
+  border-radius: 1;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 30px;
+  transition: transform .2s;
+}
+.projectLink:hover {
+  transform: scale(1.05);
+}
+.projectLink h3 {
+  margin-top: 15px;
+}
+.projectLink h3,p,img {
+  margin-left: 15px;
+}
